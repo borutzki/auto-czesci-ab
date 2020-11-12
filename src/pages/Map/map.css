@@ -1,0 +1,11 @@
+.map-frame {
+  display: flex;
+  margin: 1rem 0;
+  position: relative;
+  height: 60vh;
+  width: 100%;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border-radius: var(--corners);
+  box-shadow: var(--shadow);
+}

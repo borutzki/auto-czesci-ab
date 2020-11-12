@@ -1,11 +1,11 @@
 import React from "react";
-import Navbar from "../Navbar";
-import Footer from "../Footer";
-import Map from "../Map";
-import About from "../About";
-import Contact from "../Contact";
-import Adverts from "../Adverts";
-import Main from "../Main";
+import Navbar from "../../components/Navbar";
+import Footer from "../../components/Footer";
+import Map from "../../pages/Map";
+import About from "../../pages/About";
+import Contact from "../../pages/Contact";
+import Adverts from "../../pages/Adverts";
+import Main from "../../pages/Main";
 
 import {
   BrowserRouter as Router,
