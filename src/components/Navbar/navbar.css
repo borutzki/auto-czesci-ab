@@ -1,0 +1,23 @@
+.navbar {
+  background-color: var(--blue);
+  padding: 1rem 3rem;
+  text-transform: uppercase;
+  /* text- */
+  /* color: black; */
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px;
+}
+
+ul > li {
+  display: flex;
+}

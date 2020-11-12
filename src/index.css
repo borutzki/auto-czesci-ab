@@ -1,0 +1,51 @@
+/* czcionki */
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&display=swap");
+/* font-family: 'PT Sans Caption', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
+/* font-family: 'Alfa Slab One', cursive; */
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap");
+/* font-family: 'Caveat', cursive; */
+
+:root {
+  --blue: #007ee6;
+  --white: #ececec;
+  --gray: rgb(44, 44, 44);
+
+  --corners: 5px;
+  --shadow: 0 4px 5px 1px rgb(160, 160, 160);
+  --titleShadow: 0 15px 10px -15px rgb(60, 60, 60);
+}
+
+* {
+  font-family: "PT Sans Caption", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--white);
+  margin-bottom: 50px;
+}
+
+p {
+  color: var(--gray);
+}
+
+a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+.container {
+  margin: 0;
+  padding: 0 2rem;
+}
+
+h2 {
+  align-self: flex-start;
+  border-bottom: 5px solid var(--blue);
+  position: relative;
+  padding: 0.5rem 2rem;
+  color: var(--gray);
+  box-shadow: var(--titleShadow);
+}
