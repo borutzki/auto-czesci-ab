@@ -1,0 +1,25 @@
+form {
+  /* display: flex; */
+  flex-direction: column;
+}
+
+label {
+  /* padding: 2 0.5rem; */
+  /* width: 100%; */
+  /* align-self: flex-start; */
+  margin: 0.5rem 0;
+  /* display: flex; */
+  flex: 1;
+}
+
+input {
+  /* align-self: flex-end; */
+  /* flex: 1; */
+  /* width: 50%; */
+}
+
+.testDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

@@ -1,7 +1,7 @@
 import React from "react";
 import "./contact.css";
-// import ContactTile from "../ContactTile";
 import InfoTile from "../../components/InfoTile";
+import ContactForm from "../../components/ContactForm";
 import { contactInfo } from "../../libs/infoTiles";
 
 const Contact = () => {
@@ -20,6 +20,14 @@ const Contact = () => {
           ))}
         </div>
       </section>
+      <section>
+        <h2>Formularz kontaktowy</h2>
+        <ContactForm />
+      </section>
+      {/* <section>
+        <h2>Otrzymane wiadomości</h2>
+        
+      </section> */}
     </div>
   );
 };

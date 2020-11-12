@@ -1,7 +1,17 @@
 const contactInfo = [
-  { desc: "Telefon", value: "+48 608 218 490", icon: "img/icons/phone.svg" },
-  { desc: "E-Mail", value: "alfred.borucki@wp.pl", icon: "img/icons/mail.svg" },
-  { desc: "Adres", value: "Osła 75", icon: "img/icons/address.svg" },
+  {
+    id: 1,
+    desc: "Telefon",
+    value: "+48 608 218 490",
+    icon: "img/icons/phone.svg",
+  },
+  {
+    id: 2,
+    desc: "E-Mail",
+    value: "alfred.borucki@wp.pl",
+    icon: "img/icons/mail.svg",
+  },
+  { id: 3, desc: "Adres", value: "Osła 75", icon: "img/icons/address.svg" },
 ];
 
 const serviceInfo = [
