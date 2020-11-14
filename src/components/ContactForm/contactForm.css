@@ -1,21 +1,24 @@
-form {
-  /* display: flex; */
-  flex-direction: column;
-}
-
 label {
-  /* padding: 2 0.5rem; */
-  /* width: 100%; */
-  /* align-self: flex-start; */
+  font-weight: bold;
+  width: 100%;
   margin: 0.5rem 0;
-  /* display: flex; */
   flex: 1;
 }
 
-input {
-  /* align-self: flex-end; */
-  /* flex: 1; */
-  /* width: 50%; */
+input,
+textarea,
+input:focus {
+  width: 100%;
+  margin: 0.5rem 0;
+  background-color: var(--white);
+  border: none;
+  border-bottom: solid 2px var(--blue);
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border: solid 2px var(--blue);
 }
 
 .testDiv {

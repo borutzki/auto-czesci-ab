@@ -55,3 +55,7 @@ h2 {
   flex-direction: row;
   justify-content: space-between;
 }
+
+.svg {
+  filter: brightness(0);
+}

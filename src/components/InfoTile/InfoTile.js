@@ -4,7 +4,7 @@ import "./infoTile.css";
 const InfoTile = (props) => {
   return (
     <div className="infoTile">
-      <img src={props.icon} alt="props.desc"></img>
+      <img src={props.icon} alt="props.desc" className="svg"></img>
       <h3>{props.desc}</h3>
     </div>
   );

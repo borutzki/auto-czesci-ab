@@ -27,42 +27,39 @@ const ContactForm = () => {
   return (
     <div>
       <form onSubmit={handleSubmit}>
-        <label>
-          Imię i nazwisko:
-          <input
-            type="text"
-            name="name"
-            value={formData.name}
-            onChange={handleChange}
-          ></input>
-        </label>
-        <label>
-          E-Mail:
-          <input
-            type="text"
-            name="email"
-            value={formData.email}
-            onChange={handleChange}
-          ></input>
-        </label>
-        <label>
-          Numer telefonu:
-          <input
-            type="text"
-            name="phone"
-            value={formData.phone}
-            onChange={handleChange}
-          ></input>
-        </label>
-        <label>
-          Wiadomość:
-          <input
-            type="text"
-            name="message"
-            value={formData.message}
-            onChange={handleChange}
-          ></input>
-        </label>
+        <label htmlFor="name">Imię i nazwisko:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          value={formData.name}
+          onChange={handleChange}
+        ></input>
+        <label htmlFor="email">E-Mail:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          value={formData.email}
+          onChange={handleChange}
+        ></input>
+        <label htmlFor="phone">Numer telefonu:</label>
+        <input
+          type="tel"
+          id="phone"
+          name="phone"
+          value={formData.phone}
+          onChange={handleChange}
+        ></input>
+        <label htmlFor="message">Wiadomość:</label>
+        <textarea
+          type="text"
+          id="message"
+          name="message"
+          style={{ height: "6rem" }}
+          value={formData.message}
+          onChange={handleChange}
+        ></textarea>
         <button>Wyślij</button>
       </form>
       <section>

@@ -3,15 +3,20 @@ const contactInfo = [
     id: 1,
     desc: "Telefon",
     value: "+48 608 218 490",
-    icon: "img/icons/phone.svg",
+    icon: "img/icons/phone2.svg",
   },
   {
     id: 2,
     desc: "E-Mail",
     value: "alfred.borucki@wp.pl",
-    icon: "img/icons/mail.svg",
+    icon: "img/icons/mail2.svg",
   },
-  { id: 3, desc: "Adres", value: "Osła 75", icon: "img/icons/address.svg" },
+  {
+    id: 3,
+    desc: "Adres",
+    value: "Osła 75",
+    icon: "img/icons/address2.svg",
+  },
 ];
 
 const serviceInfo = [
