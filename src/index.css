@@ -49,3 +49,13 @@ h2 {
   color: var(--gray);
   box-shadow: var(--titleShadow);
 }
+
+.infoTilesBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.svg {
+  filter: brightness(0);
+}

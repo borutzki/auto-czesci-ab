@@ -1,13 +1,13 @@
 import React from "react";
 import "./main.css";
 import { serviceInfo, tradeInfo } from "../../libs/infoTiles";
-import InfoTile from "../InfoTile";
+import InfoTile from "../../components/InfoTile";
 
 export default function Main() {
   //   const main = "container main";
 
   return (
-    <div className={`${"container main"}`}>
+    <div className="container">
       <h1 className="mainTitle">
         Auto-Części & Wulkanizacja <br></br>
         Alfred Borucki
@@ -17,7 +17,7 @@ export default function Main() {
       </p>
       <section>
         <h2>Nasze usługi</h2>
-        <div className="services">
+        <div className="infoTilesBox">
           {serviceInfo.map((tile) => (
             <InfoTile
               key={tile.id}
@@ -30,7 +30,7 @@ export default function Main() {
       </section>
       <section>
         <h2>Asortyment</h2>
-        <div className="services">
+        <div className="infoTilesBox">
           {tradeInfo.map((tile) => (
             <InfoTile
               key={tile.id}

@@ -1,0 +1,20 @@
+.infoTile {
+  align-content: center;
+  overflow: hidden;
+  flex: 1;
+  height: 20vw;
+  padding: 0px;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.infoTile img {
+  align-self: center;
+  height: 80%;
+  margin: 0 0;
+}
+
+.infoTile h3 {
+  height: 20%;
+  margin: 0 0;
+}

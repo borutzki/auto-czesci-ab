@@ -1,0 +1,28 @@
+label {
+  font-weight: bold;
+  width: 100%;
+  margin: 0.5rem 0;
+  flex: 1;
+}
+
+input,
+textarea,
+input:focus {
+  width: 100%;
+  margin: 0.5rem 0;
+  background-color: var(--white);
+  border: none;
+  border-bottom: solid 2px var(--blue);
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border: solid 2px var(--blue);
+}
+
+.testDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
