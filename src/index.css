@@ -9,11 +9,18 @@
 :root {
   --blue: #007ee6;
   --white: #ececec;
-  --gray: rgb(44, 44, 44);
+  --gray: rgb(60, 60, 60);
 
   --corners: 5px;
   --shadow: 0 4px 5px 1px rgb(160, 160, 160);
+  --reversedShadow: 0 -4px 5px 1px rgb(160, 160, 160);
   --titleShadow: 0 15px 10px -15px rgb(60, 60, 60);
+  --buttonShadow: 0 3px 5px 0px rgb(60, 60, 60);
+  /* paski */
+  --navbarHeight: 60px;
+  --footerHeight: 25px;
+  /* z-index for navbar / footer */
+  --topLayer: 100;
 }
 
 * {
@@ -24,7 +31,15 @@ body {
   margin: 0;
   padding: 0;
   background-color: var(--white);
-  margin-bottom: 50px;
+  padding-top: var(--navbarHeight);
+  padding-bottom: var(--footerHeight);
+
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 p {
@@ -36,6 +51,10 @@ a {
   text-decoration: none;
 }
 
+section {
+  padding: 0.5rem 0;
+}
+
 .container {
   margin: 0;
   padding: 0 2rem;
@@ -43,7 +62,7 @@ a {
 
 h2 {
   align-self: flex-start;
-  border-bottom: 5px solid var(--blue);
+  border-bottom: 5px solid var(--gray);
   position: relative;
   padding: 0.5rem 2rem;
   color: var(--gray);

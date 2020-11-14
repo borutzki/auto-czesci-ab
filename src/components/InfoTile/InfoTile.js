@@ -5,7 +5,7 @@ const InfoTile = (props) => {
   return (
     <div className="infoTile">
       <img src={props.icon} alt="props.desc" className="svg"></img>
-      <h3>{props.desc}</h3>
+      <h3>{props.value}</h3>
     </div>
   );
 };

@@ -1,23 +1,43 @@
 .navbar {
   background-color: var(--blue);
-  padding: 1rem 3rem;
+  /* padding: 0rem 3rem; */
   text-transform: uppercase;
-  /* text- */
-  /* color: black; */
-}
-
-a:visited {
-  color: white;
-  text-decoration: none;
+  position: fixed;
+  top: 0px;
+  height: var(--navbarHeight);
+  box-shadow: var(--shadow);
+  width: 100%;
+  z-index: var(--topLayer);
 }
 
 ul {
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: space-between;
-  padding: 0px;
+  padding: 0rem 3rem;
+  height: 100%;
+  margin: 0;
+  max-width: 100%;
 }
 
-ul > li {
+ul li {
   display: flex;
+  width: 20%;
+  text-align: center;
+  font-weight: bold;
+}
+
+li a {
+  width: 100%;
+}
+
+.currentPageLink {
+  background-color: var(--white);
+  color: var(--gray);
+  font-weight: bold;
+  border: 8px solid var(--white);
+  border-radius: 25px;
+  width: 100%;
+  box-shadow: var(--buttonShadow);
 }

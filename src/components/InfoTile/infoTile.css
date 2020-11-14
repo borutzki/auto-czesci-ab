@@ -17,4 +17,5 @@
 .infoTile h3 {
   height: 20%;
   margin: 0 0;
+  color: var(--gray);
 }

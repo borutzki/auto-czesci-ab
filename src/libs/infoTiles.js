@@ -23,19 +23,19 @@ const serviceInfo = [
   {
     id: 1,
     desc: "Wymiana opon",
-    value: "Opony",
+    value: "Wymiana opon",
     icon: "img/icons/wheel-service.svg",
   },
   {
     id: 2,
     desc: "Wyważanie kół",
-    value: "Opony",
+    value: "Wyważanie kół",
     icon: "img/icons/wheel-balance.svg",
   },
   {
     id: 3,
     desc: "Klejenie opon",
-    value: "Opony",
+    value: "Klejenie opon",
     icon: "img/icons/flat-tire.svg",
   },
 ];

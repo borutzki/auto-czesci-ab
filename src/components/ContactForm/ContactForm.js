@@ -63,7 +63,7 @@ const ContactForm = () => {
         <button>Wyślij</button>
       </form>
       <section>
-        <h2>Wiadomości:</h2>
+        <h2>Wiadomości</h2>
         {messages.map((item, index) => {
           const { id, name, email, phone, message } = item;
           return (
